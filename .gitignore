@@ -1,0 +1,34 @@
+# .gitignore for ERATOHO Emuera project
+# Ignore Emuera engine binaries and native libraries
+Emuera.NET*.exe
+*.exe
+*.dll
+
+# Logs and runtime files
+*.log
+emuera.log
+time.log
+
+# Emuera profile / save files
+profile
+SAV/
+*.sav
+
+# Common OS files
+Thumbs.db
+desktop.ini
+
+# Editor / IDE folders
+.vscode/
+.idea/
+
+# Build / temp
+bin/
+obj/
+*.tmp
+*.cache
+*.bak
+
+# Other
+*.user
+*.suo
