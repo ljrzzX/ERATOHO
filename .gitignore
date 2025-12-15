@@ -1,7 +1,3 @@
-# .gitignore for ERATOHO Emuera project
-# Ignore Emuera engine binaries and native libraries
-*.dll
-
 # Logs and runtime files
 *.log
 emuera.log
