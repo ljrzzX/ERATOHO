@@ -13,8 +13,10 @@ async function shop_page(item_list) {
   });
   let my_items = era.get('itemkeys').map((e) => {
     return { has: era.get(`item:${e}`), id: e };
-  })
-
+  });
+  const max_page = Math.ceil(item_list.length / page_size);
+  let shop_list;
+  let cur_page = 1;
   const to_buy = {};
   const price_dict = {};
   const limit = {};
@@ -26,10 +28,15 @@ async function shop_page(item_list) {
   let shopPageFlag = true;
   while (shopPageFlag) {
     await era.clear();
+    shop_list = item_list.slice(
+      (cur_page - 1) * page_size,
+      cur_page * page_size,
+    );
+    console.log(shop_list);
     const buffer = [];
     const money = era.get('flag:萌币');
     buffer.push({ config: { content: '购买道具' }, type: 'divider' });
-    for (const item of item_list) {
+    for (const item of shop_list) {
       const item_id = item.id;
       buffer.push(
         {
@@ -59,16 +66,53 @@ async function shop_page(item_list) {
     buffer.push(
       { type: 'divider' },
       {
-        config: { width: 20 },
+        config: { width: 30 },
         content: `当前萌币: ${money.toString()}`,
         type: 'text',
       },
+    );
+    if (max_page > 1) {
+      buffer.push(
+        {
+          accelerator: 900,
+          config: { 
+            align: 'left', 
+            disabled: cur_page === 1, 
+            width: 10 
+          },
+          content: '上一页',
+          type: 'button',
+        },
+        {
+          config: {
+            align: 'center',
+            width: 4,
+          },
+          content: `${cur_page} / ${max_page}`,
+          type: 'text',
+        },
+        {
+          accelerator: 901,
+          config: {
+            align: 'right',
+            disabled: cur_page === max_page,
+            width: 10,
+          },
+          content: '下一页',
+          type: 'button',
+        },
+      );
+    }
+    buffer.push(
+      { type: 'divider' },
       {
         accelerator: 999,
+        config: { width: 4 },
         content: '返回',
         type: 'button',
       }
     );
+    
     era.printMultiColumns(buffer);
     const choice = await era.input();
     if (choice === 999) {
@@ -94,6 +138,10 @@ async function shop_page(item_list) {
         } else {
           qty = 0;
         }
+      } else if (choice === 900) {
+        cur_page--;
+      } else if (choice === 901) {
+        cur_page++;
       } else {
         while (true) {
           await era.print(`请输入购买数量（1-${maxAffordable}，输入0取消）：`);
