@@ -2,8 +2,8 @@
 const era = require('#/era-electron');
 
 async function save_game_page() {
-  let gameSavePageFlag = true;
-  while (gameSavePageFlag) {
+  let save_game_page_flag = true;
+  while (save_game_page_flag) {
     await era.clear();
     const buffer = [];
     buffer.push({ config: { content: '保存游戏' }, type: 'divider' });
@@ -41,7 +41,7 @@ async function save_game_page() {
     era.printMultiColumns(buffer);
     const ret = await era.input();
     if (ret === 999) {
-      gameSavePageFlag = false;
+      save_game_page_flag = false;
     } else if (ret > 100) {
       const savIndex = ret - 100;
       let comment;

@@ -25,8 +25,8 @@ async function shop_page(item_list) {
     price_dict[id] = era.get(`itemprice:${id}`);
     limit[id] = l;
   });
-  let shopPageFlag = true;
-  while (shopPageFlag) {
+  let shop_page_flag = true;
+  while (shop_page_flag) {
     await era.clear();
     shop_list = item_list.slice(
       (cur_page - 1) * page_size,
@@ -75,10 +75,10 @@ async function shop_page(item_list) {
       buffer.push(
         {
           accelerator: 900,
-          config: { 
-            align: 'left', 
-            disabled: cur_page === 1, 
-            width: 10 
+          config: {
+            align: 'left',
+            disabled: cur_page === 1,
+            width: 10
           },
           content: '上一页',
           type: 'button',
@@ -112,11 +112,11 @@ async function shop_page(item_list) {
         type: 'button',
       }
     );
-    
+
     era.printMultiColumns(buffer);
     const choice = await era.input();
     if (choice === 999) {
-      shopPageFlag = false;
+      shop_page_flag = false;
     } else if (choice >= 300) {
       const item_id = choice - 300;
       const unitPrice = price_dict[item_id];

@@ -1,0 +1,12 @@
+萌币:
+  id: 0
+  name: "coin"
+  type: "number"
+当前角色:
+  id: 10
+  name: "cur_chara"
+  type: "number"
+事件队列:
+  id: 11
+  name: "event_queue"
+  type: "number"

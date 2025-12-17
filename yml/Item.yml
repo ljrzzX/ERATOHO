@@ -1,0 +1,36 @@
+体力药:
+  id: 0
+  name: "item0"
+  price: 100
+精力药:
+  id: 1
+  name: "item1"
+  price: 100
+圣灵药:
+  id: 2
+  name: "item2"
+  price: 100
+体力合剂:
+  id: 3
+  name: "item3"
+  price: 500
+精力合剂:
+  id: 4
+  name: "item4"
+  price: 500
+圣灵合剂:
+  id: 5
+  name: "item5"
+  price: 500
+体力秘药:
+  id: 6
+  name: "item6"
+  price: 2000
+精力秘药:
+  id: 7
+  name: "item7"
+  price: 2000
+圣灵秘药:
+  id: 8
+  name: "item8"
+  price: 2000
