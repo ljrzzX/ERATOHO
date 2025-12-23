@@ -1,0 +1,270 @@
+# Talent.yml
+# 角色天赋
+处女:
+  id: 0
+  name: "virgin"
+  type: "number"
+胆小:
+  id: 10
+  name: "coward"
+  type: "number"
+抗逆:
+  id: 11
+  name: "resist"
+  type: "number"
+刚强:
+  id: 12
+  name: "tough"
+  type: "number"
+坦率:
+  id: 13
+  name: "frankness"
+  type: "number"
+温顺:
+  id: 14
+  name: "meek"
+  type: "number"
+自尊:
+  id: 15
+  name: "self_esteem"
+  type: "number"
+自傲:
+  id: 16
+  name: "arrogance"
+  type: "number"
+自卑:
+  id: 17
+  name: "inferiority"
+  type: "number"
+自制:
+  id: 20
+  name: "self_control"
+  type: "number"
+冷漠:
+  id: 21
+  name: "indifference"
+  type: "number"
+无感情:
+  id: 22
+  name: "emotionless"
+  type: "number"
+好奇:
+  id: 23
+  name: "curiosity"
+  type: "number"
+保守:
+  id: 24
+  name: "conservativeness"
+  type: "number"
+乐观:
+  id: 25
+  name: "optimism"
+  type: "number"
+悲观:
+  id: 26
+  name: "pessimism"
+  type: "number"
+难以逾越的界限:
+  id: 27
+  name: "limit"
+  type: "number"
+引人注目:
+  id: 28
+  name: "attractive"
+  type: "number"
+贞洁:
+  id: 30
+  name: "chastity"
+  type: "number"
+贞操无定:
+  id: 31
+  name: "debauchery"
+  type: "number"
+性压抑:
+  id: 32
+  name: "repression"
+  type: "number"
+解放:
+  id: 33
+  name: "liberation"
+  type: "number"
+抵抗:
+  id: 34
+  name: "resistance"
+  type: "number"
+脸皮薄:
+  id: 35
+  name: "shy"
+  type: "number"
+厚脸皮:
+  id: 36
+  name: "bold"
+  type: "number"
+有把柄:
+  id: 37
+  name: "handle"
+  type: "number"
+怕痛:
+  id: 40
+  name: "painful"
+  type: "number"
+无惧疼痛:
+  id: 41
+  name: "painless"
+  type: "number"
+易湿:
+  id: 42
+  name: "wet"
+  type: "number"
+不易湿:
+  id: 43
+  name: "dry"
+  type: "number"
+擅长学习:
+  id: 50
+  name: "smart"
+  type: "number"
+不擅长学习:
+  id: 51
+  name: "stupid"
+  type: "number"
+擅长用舌头:
+  id: 52
+  name: "tongue"
+  type: "number"
+容易自慰:
+  id: 60
+  name: "masturbate"
+  type: "number"
+污臭钝感:
+  id: 61
+  name: "dirt_ok"
+  type: "number"
+污臭敏感:
+  id: 62
+  name: "dirt_no"
+  type: "number"
+献身:
+  id: 63
+  name: "devoted"
+  type: "number"
+接受快感:
+  id: 70
+  name: "pleasure_ok"
+  type: "number"
+否定快感:
+  id: 71
+  name: "pleasure_no"
+  type: "number"
+容易中毒:
+  id: 72
+  name: "poison"
+  type: "number"
+即堕:
+  id: 73
+  name: "degradation"
+  type: "number"
+倒错:
+  id: 80
+  name: "perversion"
+  type: "number"
+双性恋:
+  id: 81
+  name: "bisexual"
+  type: "number"
+讨厌男性:
+  id: 82
+  name: "hate_man"
+  type: "number"
+虐待狂:
+  id: 83
+  name: "sadism"
+  type: "number"
+嫉妒:
+  id: 84
+  name: "jealousy"
+  type: "number"
+恋慕:
+  id: 85
+  name: "admiration"
+  type: "number"
+盲信:
+  id: 86
+  name: "faith"
+  type: "number"
+小恶魔:
+  id: 87
+  name: "imp"
+  type: "number"
+妖狐:
+  id: 90
+  name: "yao_fox"
+  type: "number"
+魅惑:
+  id: 91
+  name: "love_charm"
+  type: "number"
+迷之魅力:
+  id: 92
+  name: "mysterious"
+  type: "number"
+狐:
+  id: 93
+  name: "fox"
+  type: "number"
+小体型:
+  id: 100
+  name: "small_size"
+  type: "number"
+ｃ钝感:
+  id: 101
+  name: "clitoris_ok"
+  type: "number"
+ｃ敏感:
+  id: 102
+  name: "clitoris_sens"
+  type: "number"
+ｖ钝感:
+  id: 103
+  name: "virgin_ok"
+  type: "number"
+ｖ敏感:
+  id: 104
+  name: "virgin_sens"
+  type: "number"
+ａ钝感:
+  id: 105
+  name: "anal_ok"
+  type: "number"
+ａ敏感:
+  id: 106
+  name: "anal_sens"
+  type: "number"
+巨乳:
+  id: 110
+  name: "big_tit"
+  type: "number"
+恢复快:
+  id: 111
+  name: "healthy"
+  type: "number"
+恢复慢:
+  id: 112
+  name: "peaky"
+  type: "number"
+魅力:
+  id: 113
+  name: "charm"
+  type: "number"
+不思议之根:
+  id: 120
+  name: "penis"
+  type: "number"
+futa:
+  id: 121
+  name: "futa"
+  type: "number"
+男人:
+  id: 122
+  name: "boy"
+  type: "number"

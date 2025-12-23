@@ -1,3 +1,4 @@
+// #/event/lines-1.js
 
 /**
  * @file 小红 - 日常

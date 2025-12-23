@@ -1,0 +1,78 @@
+# Ex.yml
+# 角色信息
+ｃ高潮:
+  id: 0
+  name: "clitoris"
+  type: "number"
+ｖ高潮:
+  id: 1
+  name: "virgin"
+  type: "number"
+ａ高潮:
+  id: 2
+  name: "anal"
+  type: "number"
+totalex:
+  id: 3
+  name: "total_ex"
+  type: "number"
+二重高潮:
+  id: 4
+  name: "ex_2"
+  type: "number"
+三重高潮:
+  id: 5
+  name: "ex_3"
+  type: "number"
+吞精:
+  id: 6
+  name: "cum_in_mouth"
+  type: "number"
+握精:
+  id: 7
+  name: "cum_on_hand"
+  type: "number"
+射精:
+  id: 8
+  name: "cum"
+  type: "number"
+破处:
+  id: 9
+  name: "not_virgin"
+  type: "number"
+接吻射精:
+  id: 10
+  name: "cum_kiss"
+  type: "number"
+舔舐射精:
+  id: 11
+  name: "cum_cunnilingus"
+  type: "number"
+六九射精:
+  id: 12
+  name: "cum_69"
+  type: "number"
+侵犯助手射精:
+  id: 13
+  name: "cum_in_assist"
+  type: "number"
+侍奉快乐:
+  id: 14
+  name: "serve"
+  type: "number"
+屈服刻印:
+  id: 15
+  name: "meek"
+  type: "number"
+欢愉刻印参数:
+  id: 16
+  name: "pleasure"
+  type: "number"
+体力损失:
+  id: 17
+  name: "hp"
+  type: "number"
+气力损失:
+  id: 18
+  name: "sp"
+  type: "number"

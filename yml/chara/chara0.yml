@@ -1,0 +1,7 @@
+# chara0.yml
+id: 0
+name: "主角"
+callname: "你"
+base:
+  体力: 2000
+  气力: 2000

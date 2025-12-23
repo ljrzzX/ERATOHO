@@ -1,0 +1,6 @@
+# # TEquip.yml
+# # 装备状态标志位
+媚药:
+  id: 0
+  name: "aphrodisiac"
+  type: "number"

@@ -1,3 +1,5 @@
+# Flag.yml
+# 游戏全局标志位
 萌币:
   id: 0
   name: "coin"

@@ -1,3 +1,5 @@
+// #/page/page-shop.js
+
 const era = require('#/era-electron');
 const shop_desc = require('#/data/desc/items.json');
 

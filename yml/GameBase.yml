@@ -1,3 +1,5 @@
+# GameBase.yml
+# 游戏基础配置信息
 author: KaoyuC777
 info: 第一款Era Game
 year: 未知
@@ -6,3 +8,4 @@ gameCode: 114514
 version: 0.001
 allowVersion: 0.001
 versionName: 0.000001
+defaultChara: 0

@@ -10,7 +10,34 @@ function get(param) {
 }
 
 class EraCflag {
-
+  /**
+   * 卖出
+   * @returns {number}
+   */
+  get "sold"() {
+    return era.get(`cflag:${this.id}:0`);
+  }
+  /**
+   * 卖出
+   * @param {number} v
+   */
+  set "sold"(v) {
+    era.set(`cflag:${this.id}:0`, v);
+  }
+  /**
+   * 贞操
+   * @returns {number}
+   */
+  get "virgin"() {
+    return era.get(`cflag:${this.id}:100`);
+  }
+  /**
+   * 贞操
+   * @param {number} v
+   */
+  set "virgin"(v) {
+    era.set(`cflag:${this.id}:100`, v);
+  }
   get = get;
   /**
    * @param {number|string} param

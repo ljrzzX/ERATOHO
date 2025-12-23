@@ -1,0 +1,9 @@
+# CFlag.yml
+卖出:
+  id: 0
+  name: "sold"
+  type: "number"
+贞操:
+  id: 100
+  name: "virgin"
+  type: "number"

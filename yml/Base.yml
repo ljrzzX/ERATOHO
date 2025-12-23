@@ -1,0 +1,10 @@
+# Base.yml
+# 角色基础信息
+体力:
+  id: 0
+  name: "hp"
+  type: "number"
+气力:
+  id: 1
+  name: "sp"
+  type: "number"

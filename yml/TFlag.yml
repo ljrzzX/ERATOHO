@@ -1,0 +1,6 @@
+# TFlag.yml
+# 游戏状态标志位
+前回行动:
+  id: 0
+  name: "last_action"
+  type: "number"

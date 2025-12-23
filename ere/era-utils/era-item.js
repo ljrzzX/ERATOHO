@@ -2,20 +2,22 @@
 const era = require('#/era-electron');
 
 const item_variable_names = {
-  0: "item0",
-  1: "item1",
-  2: "item2",
-  3: "item3",
-  4: "item4",
-  5: "item5",
-  6: "item6",
-  7: "item7",
-  8: "item8",
+  0: "hp_medicine",
+  1: "sp_medicine",
+  2: "mp_medicine",
+  3: "hp_mixture",
+  4: "sp_mixture",
+  5: "mp_mixture",
+  6: "hp_secret_potion",
+  7: "sp_secret_potion",
+  8: "mp_secret_potion",
+  10: "aphrodisiac",
+  11: "lubricant",
 };
 
 const era_item = {
   /** 体力药 */
-  "item0": {
+  "hp_medicine": {
     /**
      * 持有数
      * @returns {number}
@@ -60,7 +62,7 @@ const era_item = {
     },
   },
   /** 精力药 */
-  "item1": {
+  "sp_medicine": {
     /**
      * 持有数
      * @returns {number}
@@ -105,7 +107,7 @@ const era_item = {
     },
   },
   /** 圣灵药 */
-  "item2": {
+  "mp_medicine": {
     /**
      * 持有数
      * @returns {number}
@@ -150,7 +152,7 @@ const era_item = {
     },
   },
   /** 体力合剂 */
-  "item3": {
+  "hp_mixture": {
     /**
      * 持有数
      * @returns {number}
@@ -195,7 +197,7 @@ const era_item = {
     },
   },
   /** 精力合剂 */
-  "item4": {
+  "sp_mixture": {
     /**
      * 持有数
      * @returns {number}
@@ -240,7 +242,7 @@ const era_item = {
     },
   },
   /** 圣灵合剂 */
-  "item5": {
+  "mp_mixture": {
     /**
      * 持有数
      * @returns {number}
@@ -285,7 +287,7 @@ const era_item = {
     },
   },
   /** 体力秘药 */
-  "item6": {
+  "hp_secret_potion": {
     /**
      * 持有数
      * @returns {number}
@@ -330,7 +332,7 @@ const era_item = {
     },
   },
   /** 精力秘药 */
-  "item7": {
+  "sp_secret_potion": {
     /**
      * 持有数
      * @returns {number}
@@ -375,7 +377,7 @@ const era_item = {
     },
   },
   /** 圣灵秘药 */
-  "item8": {
+  "mp_secret_potion": {
     /**
      * 持有数
      * @returns {number}
@@ -417,6 +419,96 @@ const era_item = {
      */
     set sales(v) {
       era.set('itemsales:8', v);
+    },
+  },
+  /** 媚药 */
+  "aphrodisiac": {
+    /**
+     * 持有数
+     * @returns {number}
+     */
+    get count() {
+      return era.get('item:10');
+    },
+    /**
+     * 持有数
+     * @param {number} v
+     */
+    set count(v) {
+      era.set('item:10', v);
+    },
+    /**
+     * 售价
+     * @returns {number}
+     */
+    get price() {
+      return era.get('itemprice:10');
+    },
+    /**
+     * 售价
+     * @param {number} v
+     */
+    set price(v) {
+      era.set('itemprice:10', v);
+    },
+    /**
+     * 在售数
+     * @returns {number}
+     */
+    get sales() {
+      return era.get('itemsales:10');
+    },
+    /**
+     * 在售数
+     * @param {number} v
+     */
+    set sales(v) {
+      era.set('itemsales:10', v);
+    },
+  },
+  /** 润滑液 */
+  "lubricant": {
+    /**
+     * 持有数
+     * @returns {number}
+     */
+    get count() {
+      return era.get('item:11');
+    },
+    /**
+     * 持有数
+     * @param {number} v
+     */
+    set count(v) {
+      era.set('item:11', v);
+    },
+    /**
+     * 售价
+     * @returns {number}
+     */
+    get price() {
+      return era.get('itemprice:11');
+    },
+    /**
+     * 售价
+     * @param {number} v
+     */
+    set price(v) {
+      era.set('itemprice:11', v);
+    },
+    /**
+     * 在售数
+     * @returns {number}
+     */
+    get sales() {
+      return era.get('itemsales:11');
+    },
+    /**
+     * 在售数
+     * @param {number} v
+     */
+    set sales(v) {
+      era.set('itemsales:11', v);
     },
   },
   /**

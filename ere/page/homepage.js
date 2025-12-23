@@ -1,13 +1,15 @@
+// #/page/home-page.js
+
 // 游戏主界面
 const era = require('#/era-electron');
-const save_game_page = require('#/page/save-game-page');
-const load_game_page = require('#/page/load-game-page');
-const shop_page = require('#/page/shop-page');
-const getup_page = require('#/page/getup-page');
+const page_save_game = require('#/page/page-save-game');
+const page_load_game = require('#/page/page-load-game');
+const page_shop = require('#/page/page-shop');
+const page_getup = require('#/page/page-getup');
 
 async function homepage() {
-  let home_page_flag = true;
-  while (home_page_flag) {
+  let homepage_flag = true;
+  while (homepage_flag) {
     await era.clear();
     era.drawLine({ content: '游戏主界面' });
     // 第一行：基本功能（100/101/102/103/104）
@@ -30,7 +32,7 @@ async function homepage() {
     const choice = await era.input({ hideInput: true });
     switch (choice) {
       case 100:
-        await getup_page();
+        await page_getup();
         break;
       case 101:
         await era.printAndWait('能力表示暂无实现。');
@@ -43,16 +45,16 @@ async function homepage() {
           ...new Array(8).fill(0).map((_, i) => i),
           {id: 8, limit: true},
         ]
-        await shop_page(items);
+        await page_shop(items);
         break;
       case 200:
-        await save_game_page();
+        await page_save_game();
         break;
       case 300:
-        await load_game_page();
+        await page_load_game();
         break;
       case 500:
-        home_page_flag = false;
+        homepage_flag = false;
         break;
     }
   }

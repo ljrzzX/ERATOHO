@@ -1,3 +1,13 @@
+# chara1.yml
+# ...
 id: 1
 name: "赤红"
 callname: "小红"
+cstr:
+  代表色: "#ff69b4"
+base:
+  体力: 2000
+  气力: 1000
+talent:
+  处女: 1
+  ｃ感觉: 1

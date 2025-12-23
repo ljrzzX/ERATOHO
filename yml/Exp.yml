@@ -1,0 +1,55 @@
+# Exp.yml
+# 角色经验信息
+ｖ经验:
+  id: 0
+  name: "virgin"
+  type: "number"
+ａ经验:
+  id: 1
+  name: "anal"
+  type: "number"
+高潮经验:
+  id: 2
+  name: "ex"
+  type: "number"
+射精经验:
+  id: 3
+  name: "ejaculate"
+  type: "number"
+自慰经验:
+  id: 10
+  name: "masturbate"
+  type: "number"
+调教自慰经验:
+  id: 11
+  name: "t_masturbate"
+  type: "number"
+精液经验:
+  id: 20
+  name: "semen"
+  type: "number"
+侍奉快乐经验:
+  id: 21
+  name: "serve"
+  type: "number"
+口交经验:
+  id: 22
+  name: "blow_job"
+  type: "number"
+苦痛快乐经验:
+  id: 30
+  name: "pain"
+  type: "number"
+女同经验:
+  id: 40
+  name: "gl"
+  type: "number"
+男同经验:
+  id: 41
+  name: "bl"
+  type: "number"
+异常经验:
+  id: 50
+  name: "except"
+  type: "number"
+

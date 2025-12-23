@@ -1,7 +1,24 @@
 // GENERATED START
 const era = require('#/era-electron');
 
+const EraAbl = require('./chara/era-abl.js');
+const EraBase = require('./chara/era-base.js');
 const EraCflag = require('./chara/era-cflag.js');
+const EraCstr = require('./chara/era-cstr.js');
+const EraDelta = require('./chara/era-delta.js');
+const EraDeltabase = require('./chara/era-deltabase.js');
+const EraEx = require('./chara/era-ex.js');
+const EraExp = require('./chara/era-exp.js');
+const EraGotjewel = require('./chara/era-gotjewel.js');
+const EraJewel = require('./chara/era-jewel.js');
+const EraMark = require('./chara/era-mark.js');
+const EraMaxbase = require('./chara/era-maxbase.js');
+const EraNowex = require('./chara/era-nowex.js');
+const EraParam = require('./chara/era-param.js');
+const EraSource = require('./chara/era-source.js');
+const EraStain = require('./chara/era-stain.js');
+const EraTalent = require('./chara/era-talent.js');
+const EraTequip = require('./chara/era-tequip.js');
 
 class EraChara {
   /**
@@ -154,13 +171,64 @@ class EraChara {
     return era.get(`relation:${this.id}`);
   }
 
+  /** @type {EraAbl} */
+  abl;
+  /** @type {EraBase} */
+  base;
   /** @type {EraCflag} */
   cflag;
+  /** @type {EraCstr} */
+  cstr;
+  /** @type {EraDelta} */
+  delta;
+  /** @type {EraDeltabase} */
+  deltabase;
+  /** @type {EraEx} */
+  ex;
+  /** @type {EraExp} */
+  exp;
+  /** @type {EraGotjewel} */
+  gotjewel;
+  /** @type {EraJewel} */
+  jewel;
+  /** @type {EraMark} */
+  mark;
+  /** @type {EraMaxbase} */
+  maxbase;
+  /** @type {EraNowex} */
+  nowex;
+  /** @type {EraParam} */
+  param;
+  /** @type {EraSource} */
+  source;
+  /** @type {EraStain} */
+  stain;
+  /** @type {EraTalent} */
+  talent;
+  /** @type {EraTequip} */
+  tequip;
 
   /** @type {number} chara_id */
   constructor(chara_id) {
     this.id = chara_id;
+    this.abl = new EraAbl(chara_id);
+    this.base = new EraBase(chara_id);
     this.cflag = new EraCflag(chara_id);
+    this.cstr = new EraCstr(chara_id);
+    this.delta = new EraDelta(chara_id);
+    this.deltabase = new EraDeltabase(chara_id);
+    this.ex = new EraEx(chara_id);
+    this.exp = new EraExp(chara_id);
+    this.gotjewel = new EraGotjewel(chara_id);
+    this.jewel = new EraJewel(chara_id);
+    this.mark = new EraMark(chara_id);
+    this.maxbase = new EraMaxbase(chara_id);
+    this.nowex = new EraNowex(chara_id);
+    this.param = new EraParam(chara_id);
+    this.source = new EraSource(chara_id);
+    this.stain = new EraStain(chara_id);
+    this.talent = new EraTalent(chara_id);
+    this.tequip = new EraTequip(chara_id);
   }
 }
 

@@ -1,3 +1,5 @@
+// #/data/event/event-object.js
+
 // 事件对象类
 class EventObject {
   /**

@@ -1,0 +1,22 @@
+# Stain.yml
+# 角色污渍信息
+口:
+  id: 0
+  name: "mouth"
+  type: "number"
+手:
+  id: 1
+  name: "hand"
+  type: "number"
+棒:
+  id: 2
+  name: "penis"
+  type: "number"
+穴:
+  id: 3
+  name: "virgin"
+  type: "number"
+菊:
+  id: 4
+  name: "anal"
+  type: "number"

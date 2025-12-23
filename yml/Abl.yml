@@ -1,0 +1,58 @@
+# Abl.yml
+# 角色能力值
+顺从:
+  id: 0
+  name: "meek"
+  type: "number"
+欲望:
+  id: 1
+  name: "lust"
+  type: "number"
+技巧:
+  id: 2
+  name: "skill"
+  type: "number"
+ｃ感觉:
+  id: 3
+  name: "clitoris"
+  type: "number"
+ｖ感觉:
+  id: 4
+  name: "virgin"
+  type: "number"
+ａ感觉:
+  id: 5
+  name: "anal"
+  type: "number"
+侍奉精神:
+  id: 6
+  name: "serve"
+  type: "number"
+露出癖:
+  id: 7
+  name: "exhibit"
+  type: "number"
+受虐倾向:
+  id: 8
+  name: "masochism"
+  type: "number"
+女同倾向:
+  id: 9
+  name: "gl_tend"
+  type: "number"
+自慰中毒:
+  id: 10
+  name: "masturbate"
+  type: "number"
+精液中毒:
+  id: 11
+  name: "semen"
+  type: "number"
+女同中毒:
+  id: 12
+  name: "gl"
+  type: "number"
+男同中毒:
+  id: 13
+  name: "bl"
+  type: "number"

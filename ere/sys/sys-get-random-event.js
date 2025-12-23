@@ -1,4 +1,5 @@
 // #/sys/sys-get-random-event
+
 const { get_random_event } = require('#/sys/sys-event-queue');
 
 const { run_custom_lines } = require('#/event/lines-factory');

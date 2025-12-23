@@ -1,1 +1,10 @@
-{}
+{
+  "system": {
+    "collapseBlankLines": true,
+    "extendedCharaTables": [
+    ]
+  },
+  "window": {
+    "orientation": 2
+  }
+}

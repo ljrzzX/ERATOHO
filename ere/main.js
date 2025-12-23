@@ -1,6 +1,8 @@
+// #/main.js
+
 const menu = require('./menu');
 const game = require('./game');
-const home_page = require('./page/home-page');
+const home_page = require('./page/homepage');
 
 module.exports = async () => {
   let gameFlag = true;

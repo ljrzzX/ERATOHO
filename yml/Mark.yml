@@ -1,0 +1,10 @@
+# Mark.yml
+# 角色刻印信息
+苦痛:
+  id: 0
+  name: "pain"
+  type: "number"
+反抗:
+  id: 1
+  name: "hate"
+  type: "number"

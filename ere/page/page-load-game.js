@@ -1,11 +1,13 @@
+// #/page/page-load-game.js
+
 // 游戏加载页面
 const era = require('#/era-electron');
 const { init_queue } = require('#/sys/sys-event-queue');
 
 
-async function load_game_page() {
-  let load_game_page_flag = true;
-  while (load_game_page_flag) {
+async function page_load_game() {
+  let page_load_game_flag = true;
+  while (page_load_game_flag) {
     await era.clear();
     const buffer = [];
     buffer.push({ config: { content: '读取游戏' }, type: 'divider' });
@@ -44,7 +46,7 @@ async function load_game_page() {
     era.printMultiColumns(buffer);
     const ret = await era.input();
     if (ret === 999) {
-      load_game_page_flag = false;
+      page_load_game_flag = false;
     } else if (ret >= 100) {
       const savIndex = ret - 100;
       era.print(`是否删除栏位 ${savIndex} 的存档？`);
@@ -67,4 +69,4 @@ async function load_game_page() {
 
 }
 
-module.exports = load_game_page;
+module.exports = page_load_game;

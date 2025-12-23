@@ -1,36 +1,48 @@
+# Item.yml
+# 基础物品信息
 体力药:
   id: 0
-  name: "item0"
+  name: "hp_medicine"
   price: 100
 精力药:
   id: 1
-  name: "item1"
+  name: "sp_medicine"
   price: 100
 圣灵药:
   id: 2
-  name: "item2"
+  name: "mp_medicine"
   price: 100
 体力合剂:
   id: 3
-  name: "item3"
+  name: "hp_mixture"
   price: 500
 精力合剂:
   id: 4
-  name: "item4"
+  name: "sp_mixture"
   price: 500
 圣灵合剂:
   id: 5
-  name: "item5"
+  name: "mp_mixture"
   price: 500
 体力秘药:
   id: 6
-  name: "item6"
+  name: "hp_secret_potion"
   price: 2000
 精力秘药:
   id: 7
-  name: "item7"
+  name: "sp_secret_potion"
   price: 2000
 圣灵秘药:
   id: 8
-  name: "item8"
+  name: "mp_secret_potion"
   price: 2000
+
+# 调教消耗品
+媚药:
+  id: 10
+  name: "aphrodisiac"
+  price: 2000
+润滑液:
+  id: 11
+  name: "lubricant"
+  price: 4000

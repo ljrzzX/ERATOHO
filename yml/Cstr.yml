@@ -1,0 +1,6 @@
+# Cstr.yml
+# 角色特征信息
+代表色:
+  id: 0
+  name: "chara_color"
+  type: "string"

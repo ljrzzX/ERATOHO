@@ -1,3 +1,5 @@
+// #/event/lines-common.js
+
 const era = require('#/era-electron');
 
 // 口上基类，主要实现地文

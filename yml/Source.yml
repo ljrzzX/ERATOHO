@@ -1,0 +1,66 @@
+# Param.yml
+# 调教参数信息
+快ｃ:
+  id: 0
+  name: "clitoris"
+  type: "number"
+快ｖ:
+  id: 1
+  name: "virgin"
+  type: "number"
+快ａ:
+  id: 2
+  name: "anal"
+  type: "number"
+情爱:
+  id: 3
+  name: "love"
+  type: "number"
+性交:
+  id: 4
+  name: "sex"
+  type: "number"
+达成:
+  id: 5
+  name: "achieve"
+  type: "number"
+痛觉:
+  id: 6
+  name: "pain"
+  type: "number"
+中毒:
+  id: 7
+  name: "poison"
+  type: "number"
+不洁:
+  id: 8
+  name: "dirt"
+  type: "number"
+液体:
+  id: 10
+  name: "liquid"
+  type: "number"
+欲望:
+  id: 11
+  name: "lust"
+  type: "number"
+露出:
+  id: 12
+  name: "exhibit"
+  type: "number"
+屈服:
+  id: 13
+  name: "submission"
+  type: "number"
+逃脱:
+  id: 14
+  name: "escape"
+  type: "number"
+反感:
+  id: 15
+  name: "hate"
+  type: "number"
+顺从:
+  id: 16
+  name: "meek"
+  type: "number"

@@ -1,9 +1,11 @@
+// #/page/page-save-game.js
+
 // 游戏保存页面
 const era = require('#/era-electron');
 
-async function save_game_page() {
-  let save_game_page_flag = true;
-  while (save_game_page_flag) {
+async function page_save_game() {
+  let page_save_game_flag = true;
+  while (page_save_game_flag) {
     await era.clear();
     const buffer = [];
     buffer.push({ config: { content: '保存游戏' }, type: 'divider' });
@@ -41,7 +43,7 @@ async function save_game_page() {
     era.printMultiColumns(buffer);
     const ret = await era.input();
     if (ret === 999) {
-      save_game_page_flag = false;
+      page_save_game_flag = false;
     } else if (ret > 100) {
       const savIndex = ret - 100;
       let comment;
@@ -72,4 +74,4 @@ async function save_game_page() {
   }
 }
 
-module.exports = save_game_page;
+module.exports = page_save_game;

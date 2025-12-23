@@ -1,3 +1,5 @@
+// #/menu.js
+
 const era = require('#/era-electron');
 
 async function showTitleMenu() {

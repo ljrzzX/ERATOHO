@@ -1,6 +1,8 @@
+// #/game.js
+
 const era = require('#/era-electron');
-const homepage = require('./page/home-page');
-const load_game_page = require('./page/load-game-page');
+const homepage = require('./page/homepage');
+const load_game_page = require('./page/page-load-game');
 const { init_queue } = require('#/sys/sys-event-queue');
 
 async function startGame() {

@@ -1,0 +1,62 @@
+# Param.yml
+# 调教参数信息
+快ｃ:
+  id: 0
+  name: "clitoris"
+  type: "number"
+快ｖ:
+  id: 1
+  name: "virgin"
+  type: "number"
+快ａ:
+  id: 2
+  name: "anal"
+  type: "number"
+润滑:
+  id: 3
+  name: "lubrication"
+  type: "number"
+顺从:
+  id: 4
+  name: "meek"
+  type: "number"
+欲望:
+  id: 5
+  name: "lust"
+  type: "number"
+屈服:
+  id: 6
+  name: "submission"
+  type: "number"
+习得:
+  id: 7
+  name: "learn"
+  type: "number"
+羞耻:
+  id: 8
+  name: "shame"
+  type: "number"
+痛苦:
+  id: 9
+  name: "pain"
+  type: "number"
+恐惧:
+  id: 10
+  name: "fear"
+  type: "number"
+反感:
+  id: 11
+  name: "hate"
+  type: "number"
+不快:
+  id: 12
+  name: "unhappy"
+  type: "number"
+抑郁:
+  id: 13
+  name: "depression"
+  type: "number"
+否定:
+  id: 100
+  name: "deny"
+  type: "number"
