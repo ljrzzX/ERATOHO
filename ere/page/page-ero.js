@@ -3,7 +3,7 @@
 const era = require('#/era-electron');
 
 const { get_gradient_color } = require('#/utils/color-utils');
-const page_info = require('#/page/page-info');
+const page_info = require('#/page/chara-info/page-info');
 
 const { action_enum, action_names } = require('#/data/ero/action-const');
 const {
@@ -44,7 +44,7 @@ async function page_ero() {
     era.print([
       '正在调教 ',
       {
-        content: target.callname,
+        content: target.name,
         color: target.cstr.chara_color,
       },
     ]);
@@ -154,7 +154,7 @@ async function page_ero() {
     );
     // 输出一个空行手动换行，将指令和功能按钮分隔开
     buffer.push({ content: [], type: 'text' });
-    ['角色情报', '污垢情况'].forEach((e, i) =>
+    ['污垢情况'].forEach((e, i) =>
       buffer.push({
         accelerator: 100 + i,
         config: { width: 8 },

@@ -1,4 +1,4 @@
-// #/page/page-info.js
+// #/page/chara-info/page-info.js
 
 const era = require('#/era-electron');
 
@@ -22,7 +22,7 @@ async function page_info(id) {
   const chara = EraChara.get(id);
   buffer.push(
     {
-      config: { content: `${chara.callname} 的情报`, position: 'center' },
+      config: { content: `${chara.callname} 的情报`, position: 'left' },
       type: 'divider',
     },
     {
@@ -71,7 +71,7 @@ async function page_info(id) {
       })
     });
   buffer.push({
-    config: { content: '能力', position: 'center' },
+    config: { content: '能力', position: 'left' },
     type: 'divider',
   });
   Object.keys(eraAblNames)

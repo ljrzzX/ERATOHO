@@ -18,6 +18,7 @@ async function startGame() {
   era.drawLine({ isSolid: true });
   era.print('欢迎来到Eratrain的世界！');
   era.drawLine({ isSolid: true });
+  await era.waitAnyKey();
   await homepage();
 };
 
